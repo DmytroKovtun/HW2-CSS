@@ -34,11 +34,21 @@
         display: block;
     }
 }
+@media (max-width: 640px) {
+    .header_wrapper {
+        padding: 30px 24px;
+    }
+}
 @media (max-width: 480px) {
     .header_logo {
         max-width: 174px;
     }
+    .header_wrapper {
+        padding: 10px 24px;
+    }
+
 }
+
 
 
 
@@ -70,6 +80,9 @@
 @media (max-width: 960px) {
     .menu {
         display: none;
+    }
+    .hero_cta {
+        gap: 16px;
     }
 }
 
